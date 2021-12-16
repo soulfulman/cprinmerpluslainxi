@@ -1,0 +1,67 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+//int main()
+//{
+//	printf("liang wang\n");
+//	printf("liang\nwang\n");
+//	printf("liang ");
+//	printf("wang");
+//	return 0;
+//}
+#define DAYS_PER_YEAR 365
+int  main()
+{
+	int age, days;
+	age =22;
+	days = age * DAYS_PER_YEAR;
+	printf("your age is%d,and it is%days.\n", age, days);
+	return 0;
+}
+int jolly(void);
+int deny(void);
+int main(void); 
+
+{
+	jolly();
+	jolly();
+	jolly();
+	return 0;
+}
+int jolly(void) {
+	printf("for he's ajolly good fellow!\n");
+	return 0;
+}
+int deny(void)
+{
+	printf("which nobody can deny!\n");
+	return 0;
+}
+int br(void);
+int ic(void);
+int main(void)
+{
+	br();
+	ic();
+	printf("%s %s\n", india china);
+	return 0;
+
+}
+int br(void);
+{
+	printf("%s%s", india china);
+    return 0;
+}
+int ic(void);
+{
+	printf("%s%s", brazil, russia);
+	return 0;
+}
+int main()
+{
+	int toes = 10;
+	int ret = 2*toes ;
+	int S_toes = toes* toes;
+	printf("%d%%d%d", toes,ret, S_toes);
+	return 0;
+
+}
